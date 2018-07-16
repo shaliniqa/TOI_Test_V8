@@ -1,0 +1,15 @@
+baseUrl: http://qa.clickngrade.com/
+baseUrl_hris: https://hris.qainfotech.com/
+baseUrl_TOI: https://timesofindia.indiatimes.com/
+
+  
+username: tarangsharma@qainfotech.com 
+password: Qait@123
+
+username_hris: Shalinichaurasia
+password_hris: Shalini@321#
+  
+email:
+    recepients: 
+        recepient1: priyadarshibharat@qainfotech.com
+        recepient2: umangtiwari@qainfotech.com

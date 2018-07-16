@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [ TOI Automated Test Suite]" parallel="none">
+  <test name="Toi Test(failed)" parallel="none">
+    <classes>
+      <class name="com.qait.demo.tests.MoveToTechTest">
+        <methods>
+          <include name="TechIconTest"/>
+          <include name="initializeVariable"/>
+        </methods>
+      </class> <!-- com.qait.demo.tests.MoveToTechTest -->
+      <class name="com.qait.demo.tests.TechNewsPageTest">
+        <methods>
+          <include name="initializeVariable"/>
+          <include name="FetchNews"/>
+        </methods>
+      </class> <!-- com.qait.demo.tests.TechNewsPageTest -->
+      <class name="com.qait.demo.tests.TOIFetchNewsTest">
+        <methods>
+          <include name="FetchNews"/>
+          <include name="initializeVariable"/>
+        </methods>
+      </class> <!-- com.qait.demo.tests.TOIFetchNewsTest -->
+      <class name="com.qait.demo.tests.TOIHomePageTest">
+        <methods>
+          <include name="initializeVariable"/>
+          <include name="verifyPage"/>
+        </methods>
+      </class> <!-- com.qait.demo.tests.TOIHomePageTest -->
+    </classes>
+  </test> <!-- Toi Test(failed) -->
+</suite> <!-- Failed suite [ TOI Automated Test Suite] -->

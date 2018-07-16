@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name=" TOI Automated Test Suite" preserve-order="true" thread-count="1" parallel = "none">
+	
+	<test name="Toi Test">
+		<classes>
+			<class name="com.qait.demo.tests.TOIHomePageTest" />
+			<class name="com.qait.demo.tests.TOIFetchNewsTest" />
+			<class name="com.qait.demo.tests.MoveToTechTest" />
+			<class name="com.qait.demo.tests.TechNewsPageTest" />
+			
+			
+		</classes>
+	</test>
+	
+	<!-- <test name="Search Test 2">
+		<classes>
+			<class name="com.qait.demo.tests.TechNewsPageTest" /
+		</classes>
+	</test> -->
+	
+
+</suite>
